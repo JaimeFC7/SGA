@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-ago-2018, 16:12:25
+    Author     : jaime
+*/
+
+body, html{
+    height: 100%;
+}
+
+.bg{
+    background-image: url("http://via.placeholder.com/1366x768");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    margin-top: 22%;
+}
+
+.borde{
+    border-style: solid;
+    border-color: gray;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    border-radius: 15px;
+    background: white;
+}
+/*
+.error{
+    margin-top: 3%;
+    border-style: solid;
+    border-color: red;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.6%;
+    border-radius: 30px;
+    background: white;
+    color: red;
+    text-align: center;
+}
+*/
+.error{
+    margin-top: 3%;
+    color: red; 
+    padding-top: 0.6%;
+    border-radius: 30px;
+    color: red;
+    text-align: center;
+}
+
+label, input{
+    display: inline-block;
+}
+
+label{
+    width: 30%;
+    margin-left: 6%;
+    text-align: left;
+}
+
+label + input{
+    width: 50%;
+    margin-top:4%;
+    margin-left: 8%;
+}
+
+input + input{
+    float: right;
+}
+
+input[type=submit]{
+    width: 100%;
+    font-weight: 700;
+}
+
+.btn-primary{
+    background-color: #222 !important;
+    border-color: #080808 !important;
+}
+

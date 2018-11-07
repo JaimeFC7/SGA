@@ -1,0 +1,94 @@
+body, html{
+    /*height: 100%;*/
+}
+
+body{
+	padding-top: 60px; /*Para que no se coma el texto*/
+}
+
+.bg{
+    background-image: url("http://via.placeholder.com/1366x768");
+    /*height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user-info{
+	font-size: 18px;
+	color: white;
+	font-weight: normal;
+	line-height: 48px;
+}
+
+.user-info > .glyphicon-user{
+	color: white;
+	margin-right: 5px;
+	margin-top: -2px !important;
+}
+
+#username > input{
+	color: white;
+	font-size: 18px;
+}
+
+#username > input:hover{
+	color: gray;
+	font-size: 18px;
+}
+
+.btn-primary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#inicio > input{
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 15px !important;
+	line-height: 2.429  !important;
+}
+
+#inicio > input:hover{
+	color: gray;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important; 
+	font-size: 15px !important;
+	line-height: 2.429  !important;
+}
+
+.logoff > form >button > span{
+	font-size: 18px;
+	line-height: 35px;
+	color: white;
+	float: right;
+}
+
+#navbar1{
+	margin-left: 8%;
+}
+
+.navbar-nav > li > a{
+	color: white !important;
+}
+
+.navbar-nav > li > a:hover{
+	color: gray !important;
+}
+
+section{
+	margin-bottom: 5px;
+}
+
+section > p{
+	text-align: justify;
+	text-justify: inter-character;
+}
+
+section > img{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background: white;
+	padding: 1%;
+    border-radius: 15px;
+}

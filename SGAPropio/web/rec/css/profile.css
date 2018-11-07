@@ -1,0 +1,54 @@
+body, html{
+    height: 100%;
+}
+
+body{
+	padding-top: 150px; /*Para que no se coma el texto*/
+}
+
+.bg{
+    background-image: url("http://via.placeholder.com/1366x768");
+    /*height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+	display: table !important;
+    table-layout: fixed !important;
+    width: 100% !important;
+}
+
+section{
+	margin-bottom: 5px;
+	display: table-cell !important;
+}
+
+section > img{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background: white;
+	padding: 1%;
+    border-radius: 15px;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#profile-info{
+	vertical-align: middle;
+	margin-top: 6%;
+}
+
+.atributos{
+	list-style: none;
+
+}
+
+.atributos li{
+	text-align: justify;
+	text-justify: inter-character;
+	margin-left: 40px;
+}

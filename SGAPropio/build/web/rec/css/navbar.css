@@ -1,0 +1,60 @@
+.user-info{
+	font-size: 18px;
+	color: white;
+	font-weight: normal;
+	line-height: 48px;
+}
+
+.user-info > .glyphicon-user{
+	color: white;
+	margin-right: 5px;
+	margin-top: -2px !important;
+}
+
+#username > input{
+	color: white;
+	font-size: 18px;
+}
+
+#username > input:hover{
+	color: gray;
+	font-size: 18px;
+}
+
+.btn-primary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#inicio > input{
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 15px !important;
+	line-height: 2.429  !important;
+}
+
+#inicio > input:hover{
+	color: gray;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important; 
+	font-size: 15px !important;
+	line-height: 2.429  !important;
+}
+
+.logoff > form >button > span{
+	font-size: 18px;
+	line-height: 35px;
+	color: white;
+	float: right;
+}
+
+#navbar1{
+	margin-left: 8%;
+}
+
+.navbar-nav > li > a{
+	color: white !important;
+}
+
+.navbar-nav > li > a:hover{
+	color: gray !important;
+}
